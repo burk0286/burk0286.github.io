@@ -1,0 +1,94 @@
+@charset "utf-8";
+
+* {
+  box-sizing: initial;
+}
+
+body {
+
+
+  font-family: verdana;
+  font-size: 14px;
+  padding: 24px;
+  background: #7cc576;
+}
+
+
+.header {
+  padding: 20px;
+  font-family: verdana;
+  font-size: 70px;
+  text-align: center;
+  background: #7cc576;
+}
+
+.header h1 {
+  font-size: 30px;
+}
+
+.header h2 {
+  font-size: 30px;
+}
+
+.topnav {
+  overflow: hidden;
+  font-family: verdana;
+  font-size:24px;
+  background-color: #6dcff6; 
+}
+
+.fixed-nav-bar {
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 9999;
+  width: 40%;
+  height: 20px;
+  background-color: #00a087;
+}
+
+.topnav ul {
+    display: inline-block;
+    list-style-type: none;
+	font-family: verdana;
+	font-size: 50px;
+	 color: black;
+  background-color: #ddd;
+}
+
+.card {
+  background-image: url("fan.png");
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f2f3f5;
+}
+ 
+
+.column {
+  float: left;
+  width: 50%;
+  padding: 10px;
+  height: 300px; 
+}
+
+  .column {
+  float: right;
+  width: 50%;
+  padding: 10px;
+  height: 300px;
+}
+
+.column {
+  float: left;
+  width: 33.33%;
+  padding: 5px;
+}
+
+.row::after {
+  content: "";
+  clear: both;
+  display: table;
+}
+
+
+  
