@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html>
+<html >
 <head>
 	<meta charset="utf-8">
 	<title>LIB2024 - QA</title>
@@ -28,6 +28,15 @@
 				<strong>Ans:</strong>
 				Version control is known as a system that records changes to one or more files over time. This takes place so people can recall specific versions at another time. An example of version control is GitHub.
 			</p></li>
+			<li>
+			<p>
+				<strong>Qus:</strong>
+				What tag is used to create the title of a web page? Give an example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				The title tag is used to create the title of a web page. Ex: (title) Title(/ title)
+			</p></li>
 		<li>
 			<p>
 				<strong>Qus:</strong>
@@ -35,7 +44,7 @@
 			</p>
 			<p>
 				<strong>Ans:</strong>
-				The tag used to create a paragraph in html is the p tag. An example is <p> This is a paragraph.</p>
+				The tag used to create a paragraph in html is the p tag. An example is <p> This is a paragraph.
 			</p></li>
 		<li>
 			<p>
@@ -72,6 +81,110 @@
 			<p>
 				<strong>Ans:</strong>
 				The odd one from these tags is the b tag, because the other three tags are associated with making a table while the b tag is just boldening text.
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Give an example of color picker input.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				An example of color picker input is (input type = "blue").
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				What is the use of name and value attributes? Give two examples.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				The name attribute specifies a name for the element. Example: (textarea name= "introductory text"). The value attribute sets th value of the unordered list item. Example: (input type="submit" value="Submit")
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Give an example of inline style.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				An example of inline style is (h1 style='color=green;') This is a heading (/h1).
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				How would you link an external style sheet? Give an example.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				You define the style sheet, create the link element in the HTML page's head area to define the link between the HTML and CSS pages, you add a rel = "stylesheet" attribute to set the link's relationship, add setting type="text/css" to specify the type of style, and use the href attribute to determine the location of the style sheet. Example: (link rel = "stylesheet"<br>
+ type = "text/css"<br>
+   href = "myStyle.css" /)
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS block to center an element both horizontally and vertically that has position:absolute and has width:200px and height:200px.
+			</p>
+			<p>
+				<strong>Ans:</strong>
+	.b1 {<br>
+	position: absolute;<br>
+	width: 200px;<br>
+	height: 200px;<br>
+	z-index: 1;
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS keyframes block called "spin" that rotates an element. 
+			</p>
+			<p>
+				<strong>Ans:</strong>
+			}
+
+		@keyframes spin {
+			from {
+				transform: rotate(0deg);<br>
+			}<br>
+			OR <br>
+			to {<br>
+				transform: rotate(360deg);<br>
+			}	
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				Create CSS animation block to rotate an element that has the following properties :
+
+					class "rotate-me"
+					It rotates 5 times at intervals of 0.5s with "linear" transition using animation keyframes "spin"
+			</p>
+			<p>
+				<strong>Ans:</strong>
+				class "rotate-me"<br>
+			animation: 
+				spin 2s linear infinite,<br>
+				change-color 4s ease-in-out infinite,<br>
+				border-radius-change 1s ease infinite;	
+			</p></li>
+		<li>
+			<p>
+				<strong>Qus:</strong>
+				How would you include create an alert with string "I love JavaScript" using JavaScript?
+			</p>
+			<p>
+				<strong>Ans:</strong>
+		let str = "I love JavaScript";<br>
+
+let result = str.match(/Java(Script)/);<br>
+
+alert( result[0] );     // JavaScript (full match)<br>
+alert( result[1] );     // Script (first capturing group)<br>
+alert( result.length ); // 2<br>
+
+// Additional information:<br>
+alert( result.index );  // 0 (match position)<br>
+alert( result.input );  // I love JavaScript (source string)
 			</p></li>
   </ol>
 </body>
