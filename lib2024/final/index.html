@@ -31,6 +31,7 @@ background-image: url("fan.png");
 
 .header h2 {
   font-size: 30px;
+  font-color:#72a9ae;
 }
 
 .topnav {
@@ -46,6 +47,7 @@ background-image: url("fan.png");
   margin-top: 20px;
   background-color: #f2f3f5;
 }
+
 table.minimalistBlack {
   border: 3px solid #000000;
   width: 100%;
@@ -224,9 +226,56 @@ table.minimalistBlack tfoot {
 </tbody>
 </table>
 </article>
+<div style="float: right; width: 30%;">
+		<aside>
+  <h1><font color="#72a9ae">PROFILE INFO</h1>
+  	<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+
+<div class="card">
+	<figure><img src="img/person.png" alt="person" width="225" height="225"></figure>
+  <h1>John Doe</h1>
+  <font color="black">JohnDoe@algonquincollege.com
+  <p>1385 Woodroffe Avenue, Nepean,</p>
+  <p>ON, K2G 1V8</p>
+  <a href="#"><i class="fa fa-envelope-o"></i></a>
+</div>
+  </aside>
+</div>
+<div class="leftcolumn">
+<h2><font color="#72a9ae">EDIT PROFILE</h2>
+	<form action="/action_page.php">
+  <label "fname">Name:</label>
+  <input type="text" id="name" name="name"><br><br>
+   <label for="email">Email:</label>
+  <input type="email" id="email" name="email"><br><br>
+  <label for="address">Address:</label>
+<input type="text" id="address" name="address"><br><br>
+<label for="city">City:</label>
+<input type="text" id="city" name="city"><br><br>
+<label for="province">Province:</label>
+<select name="province" id="province">
+	<option value="AB">Alberta</option>
+	<option value="BC">British Columbia</option>
+	<option value="MB">Manitoba</option>
+	<option value="NB">New Brunswick</option>
+	<option value="NL">Newfoundland and Labrador</option>
+	<option value="NS">Nova Scotia</option>
+	<option value="NT">Northwest Territories</option>
+	<option value="NU">Nunavut</option>
+	<option value="ON">Ontario</option>
+	<option value="PE">Prince Edward Island</option>
+	<option value="QC">Quebec</option>
+	<option value="SK">Saskatchewan</option>
+	<option value="YT">Yukon</option>
+</select><br><br>
+<label for="pcode">Postal Code:</label>
+<input type="text" id="pcode" name="pcode"><br><br>
+<input type="submit">
 </div>
 </div>
-<footer>
+</form>
+</font>
+<font color="black">
 <p>CopyRight 2017, All Rights Reserved.&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;<a href="https://www.facebook.com/">
          <img alt="facebook" src="img/facebook.png"
          width="49" height="50"></a><a href="https://www.youtube.com/">
@@ -235,7 +284,6 @@ table.minimalistBlack tfoot {
          <img alt="twitter" src="img/twitter.png"
          width="47" height="48"></a>
      </p>
- </footer>
 </body>
 </html>
 
