@@ -54,41 +54,72 @@ table {
 
 * {
   box-sizing: initial;
-}
-
-body {
-
-
-  font-family: verdana;
+ font-family: verdana;
   font-size: 14px;
   padding: 24px;
-  background: #7cc576;
+  background: #ffffff;
 }
-
 
 .header {
   padding: 20px;
   font-family: solidmarker;
   font-size: 70px;
-  text-align: center;
-  background: #7cc576;
+  text-align: left;
+  background: #ffffff;
 }
 
 .header h1 {
   font-size: 30px;
+background-image: url("fan.png");
 }
 
 .header h2 {
   font-size: 30px;
+  font-color:#72a9ae;
 }
 
 .topnav {
   overflow: hidden;
   font-family: verdana;
   font-size:24px;
-  background-color: #6dcff6; 
+  background-color: #72a9ae; 
 }
 
+.card {
+  background-image: url("fan.png");
+  padding: 20px;
+  margin-top: 20px;
+  background-color: #f2f3f5;
+}
+
+table.minimalistBlack {
+  border: 3px solid #000000;
+  width: 100%;
+  text-align: left;
+  border-collapse: collapse;
+}
+table.minimalistBlack td, table.minimalistBlack th {
+  border: 1px solid #000000;
+  padding: 5px 4px;
+}
+table.minimalistBlack tbody td {
+  font-size: 13px;
+}
+table.minimalistBlack thead {
+  background: #ffffff;
+  border-bottom: 3px solid #000000;
+}
+table.minimalistBlack thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #000000;
+  text-align: left;
+}
+table.minimalistBlack tfoot {
+  font-size: 14px;
+  font-weight: bold;
+  color: #000000;
+  border-top: 3px solid #000000;
 .fixed-nav-bar {
   position: fixed;
   top: 0;
@@ -102,19 +133,11 @@ body {
 .topnav ul {
     display: inline-block;
     list-style-type: none;
-	font-family: verdana;
-	font-size: 50px;
-	 color: black;
+  font-family: verdana;
+  font-size: 50px;
+   color: black;
   background-color: #ddd;
 }
-
-.card {
-  background-image: url("fan.png");
-  padding: 20px;
-  margin-top: 20px;
-  background-color: #f2f3f5;
-}
- 
 
 .column {
   float: left;
@@ -140,7 +163,20 @@ body {
   content: "";
   clear: both;
   display: table;
+  background-color: #454545;
 }
 
+@media screen and (max-width: 960px) {
+  .leftcolumn, .rightcolumn {   
+    width: 100%;
+    padding: 10px;
+  }
+}
+
+@media screen and (max-width: 960px) {
+  .topnav a {
+    float: none;
+    width: 100%;
+}
 
   
